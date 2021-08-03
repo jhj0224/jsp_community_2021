@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.yhr.exam.exam2.container.Container"/>
+    <fullyQualifiedTypeName name="com.yhr.exam.exam2.http.controller.Controller"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.yhr.exam.exam2.util.Ut"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.sbs.exam.app.repository.BoardRepository"/>
+    <fullyQualifiedTypeName name="com.sbs.exam.app.container.Container"/>
+    <fullyQualifiedTypeName name="com.sbs.exam.app.service.BoardService"/>
+    <fullyQualifiedTypeName name="com.sbs.exam.app.dto.Board"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="com.jhs.exam.exam2.dto.ResultData"/>
+</qualifiedTypeNameHistroy>
