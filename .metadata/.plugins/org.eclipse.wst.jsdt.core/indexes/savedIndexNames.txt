@@ -3,6 +3,5 @@ INDEX VERSION 1.4+C:\work\sts-4.11.0.RELEASE-workspace\.metadata\.plugins\org.ec
 1691846297.index
 3159569973.index
 1356189524.index
-1372045680.index
 3457294274.index
 2815486633.index

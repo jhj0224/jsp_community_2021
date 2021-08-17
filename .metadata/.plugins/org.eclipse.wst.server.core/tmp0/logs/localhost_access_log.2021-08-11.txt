@@ -1,0 +1,5 @@
+127.0.0.1 - - [11/Aug/2021:09:24:46 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [11/Aug/2021:09:24:46 +0900] "GET /jsp_community_2021/WEB-INF/classes/com/jhs/exam/exam2/http/controller/AdmHomeController.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [11/Aug/2021:09:24:46 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [11/Aug/2021:09:24:55 +0900] "GET /jsp_community_2021/ HTTP/1.1" 302 3
+0:0:0:0:0:0:0:1 - - [11/Aug/2021:09:24:55 +0900] "GET /jsp_community_2021/usr/home/main HTTP/1.1" 200 142

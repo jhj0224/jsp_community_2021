@@ -14,4 +14,5 @@
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="com.jhs.exam.exam2.dto.ResultData"/>
+    <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.ForEach"/>
 </qualifiedTypeNameHistroy>

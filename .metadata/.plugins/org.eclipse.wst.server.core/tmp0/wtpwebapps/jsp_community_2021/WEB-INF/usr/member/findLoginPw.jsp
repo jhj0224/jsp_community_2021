@@ -18,41 +18,38 @@
 
 			<div class="px-4 py-4">
 				<script>
-					let MemberFindloginPw__submitDone = false;
-					function MemberFindloginPw__submit(form) {
-						if (MemberFindloginPw__submitDone) {
+					let MemberFindLoginPw__submitDone = false;
+					function MemberFindLoginPw__submit(form) {
+						if (MemberFindLoginPw__submitDone) {
 							return;
 						}
-
+						
+						form.loginId.value = form.loginId.value.trim();
 						if (form.loginId.value.length == 0) {
-							alert('로그인 아이디를 입력해주세요.');
+							alert('이름을 입력해주세요.');
 							form.loginId.focus();
-
 							return;
 						}
-
+						
+						form.email.value = form.email.value.trim();
 						if (form.email.value.length == 0) {
 							alert('이메일을 입력해주세요.');
 							form.email.focus();
-
 							return;
 						}
-
 						form.submit();
-						MemberFindloginPw__submitDone = true;
+						MemberFindLoginPw__submitDone = true;
 					}
 				</script>
 				<form action="../member/doFindLoginPw" method="POST"
-					onsubmit="MemberFindloginPw__submit(this); return false;">
-					
-					
+					onsubmit="MemberFindLoginPw__submit(this); return false;">
 					<div class="form-control">
 						<label class="label">
-							<span class="label-text">로그인 아이디</span>
+							<span class="label-text">로그인아이디</span>
 						</label>
 						<div>
 							<input class="input input-bordered w-full" maxlength="100"
-								name="loginId" type="text" placeholder="로그인 아이디를 입력해주세요." />
+								name="loginId" type="text" placeholder="로그인아이디를 입력해주세요." value="${param.loginId}" />
 						</div>
 					</div>
 
@@ -68,7 +65,7 @@
 
 					<div class="btns">
 						<button type="submit" class="btn btn-link">비밀번호 찾기</button>
-						<a href="../member/findLoginId" class="btn btn-link">아이디 찾기</a>
+						<a href="../member/findLoginPw" class="btn btn-link">아이디 찾기</a>
 						<a href="../member/login" class="btn btn-link">로그인</a>
 						<a href="../member/join" class="btn btn-link">가입</a>
 					</div>
@@ -77,4 +74,4 @@
 		</div>
 	</div>
 </section>
-<%@ include file="../part/foot.jspf"%>
+<%@ include file="../part/foot.jspf"%> 
